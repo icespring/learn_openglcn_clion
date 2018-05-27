@@ -1,6 +1,6 @@
 # Learn OpenGL CN
 
-在https://learnopengl-cn.github.io过程中使用的事例代码
+在https://learnopengl-cn.github.io 过程中使用的事例代码
 
 ## 我的环境配置
 MacOS 10.13.4
