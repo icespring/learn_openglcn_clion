@@ -7,7 +7,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 #link_directories(/usr/local/Cellar/glfw/3.2.1/lib)
 find_library(glfw3 glfw)
 
-add_executable(learn_opengl glad.c f01_0301_shader_uniform.cpp)
+add_executable(learn_opengl glad.c f01_0302_shaders_interpolation.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
