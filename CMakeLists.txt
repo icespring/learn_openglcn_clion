@@ -11,7 +11,8 @@ add_executable(learn_opengl
         glad.c
         include/learnopengl/shader_s.h
         include/stb_image.h
-        f01_0402_texture_combined.cpp)
+#        f01_0402_texture_combined.cpp
+        f01_0501_transformations.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
