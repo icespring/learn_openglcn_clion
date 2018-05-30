@@ -7,7 +7,11 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 #link_directories(/usr/local/Cellar/glfw/3.2.1/lib)
 find_library(glfw3 glfw)
 
-add_executable(learn_opengl glad.c include/learnopengl/shader_s.h f01_0401_texture.cpp include/stb_image.h)
+add_executable(learn_opengl
+        glad.c
+        include/learnopengl/shader_s.h
+        include/stb_image.h
+        f01_0402_texture_combined.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
