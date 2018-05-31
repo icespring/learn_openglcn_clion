@@ -7,7 +7,7 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include <iostream>
-#include <learnopengl/shader_s.h>
+#include <learnopengl/shader_m.h>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);

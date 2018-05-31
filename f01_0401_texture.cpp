@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <stb_image.h>
 
-#include <learnopengl/shader_s.h>
+#include <learnopengl/shader_m.h>
 
 #include <iostream>
 

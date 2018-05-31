@@ -5,7 +5,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <learnopengl/shader_s.h>
+#include <learnopengl/shader_m.h>
 
 #include <iostream>
 
