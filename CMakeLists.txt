@@ -9,14 +9,15 @@ find_library(glfw3 glfw)
 
 add_executable(learn_opengl
         glad.c
-        include/learnopengl/shader_s.h
+        include/learnopengl/shader_m.h
         include/stb_image.h
 #        f01_0402_texture_combined.cpp
 #        f01_0501_transformations.cpp
 #        f01_0601_coordinate_systems.cpp
 #        f01_0602_coordinate_systems_depth.cpp
 #        f01_0603_coordinate_systems_multiple.cpp
-        f01_0701_camera_circle.cpp)
+#        f01_0701_camera_circle.cpp
+        f01_0702_camera_keyboard_dt.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
