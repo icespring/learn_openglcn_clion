@@ -17,7 +17,8 @@ add_executable(learn_opengl
 #        f01_0602_coordinate_systems_depth.cpp
 #        f01_0603_coordinate_systems_multiple.cpp
 #        f01_0701_camera_circle.cpp
-        f01_0702_camera_keyboard_dt.cpp)
+#        f01_0702_camera_keyboard_dt.cpp
+        f01_0703_camera_mouse_zoom.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
