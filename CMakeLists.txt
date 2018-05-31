@@ -13,7 +13,8 @@ add_executable(learn_opengl
         include/stb_image.h
 #        f01_0402_texture_combined.cpp
 #        f01_0501_transformations.cpp
-        f01_0601_coordinate_systems.cpp)
+#        f01_0601_coordinate_systems.cpp
+        f01_0602_coordinate_systems_depth.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
