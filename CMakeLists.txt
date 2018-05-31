@@ -15,7 +15,8 @@ add_executable(learn_opengl
 #        f01_0501_transformations.cpp
 #        f01_0601_coordinate_systems.cpp
 #        f01_0602_coordinate_systems_depth.cpp
-        f01_0603_coordinate_systems_multiple.cpp)
+#        f01_0603_coordinate_systems_multiple.cpp
+        f01_0701_camera_circle.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
