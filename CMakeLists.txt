@@ -22,7 +22,8 @@ add_executable(learn_opengl
 #        f01_0703_camera_mouse_zoom.cpp
 #        f01_0704_camera_class.cpp
 #        f02_0101_color.cpp
-        f02_0201_basic_lighting_diffuse.cpp)
+#        f02_0201_basic_lighting_diffuse.cpp
+        f02_0202_basic_lighting_specular.cpp)
 
 target_link_libraries(learn_opengl ${glfw3})
 
